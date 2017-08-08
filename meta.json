@@ -1,0 +1,31 @@
+{
+  "meta":[
+    {
+      "location": "/",
+      "title": "Index page title",
+      "title-length": "16",
+      "description": "Description",
+      "description-length": "11",
+      "img": "https://www.w3schools.com/w3images/fjords.jpg",
+      "img_type": "img/jpg",
+      "img_width": "600",
+      "img_height": "400"
+    },
+    {
+      "location": "/foo",
+      "title": "foo",
+      "title-length": "3",
+      "description": "bar",
+      "description-length": "3",
+      "img": "https://www.w3schools.com/w3images/fjords.jpg",
+      "img_type": "img/jpg",
+      "img_width": "600",
+      "img_height": "400"
+    },
+    {
+      "location": "404",
+      "title": "Page Not Found",
+      "description": "Page Not Found"
+    }
+  ]
+}
