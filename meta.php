@@ -21,12 +21,6 @@ function makePage($data, $loc) {
 
     $html .= '<title>'.$data['title'].'</title>'.PHP_EOL;
     $html .= '<meta name="description" content="'.$data['description'].'"/>'.PHP_EOL;
-
-    $html .= '<meta property="name" content="'.$data['title'].'"/>'.PHP_EOL;
-    $html .= '<meta property="description" content="'.$data['description'].'"/>'.PHP_EOL;
-
-    $html .= '<meta property="twitter:title" content="'.$data['title'].'"/>'.PHP_EOL;
-    $html .= '<meta property="twitter:description" content="'.$data['description'].'"/>'.PHP_EOL;
     
     $html .= '<meta http-equiv="refresh" content="0;url='.$pageUrl.'">'.PHP_EOL;
     $html .= '</head>'.PHP_EOL;
