@@ -2,6 +2,8 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_USER_AGENT}  ^googlebot|yahoo|bingbot|baiduspider|yandex|yeti|yodaobot|gigabot|ia_archiver|facebookexternalhit|twitterbot|developers\.google\.com$
+#Uncomment if using local image path and edit pat to your image directory
+#RewriteCond %{REQUEST_URI} !^/?public/images/
 RewriteRule ^(.*)$         /meta.php?_escaped_fragment_=$1          [L,R=301]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
