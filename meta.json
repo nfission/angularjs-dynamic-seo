@@ -7,7 +7,7 @@
       "description": "Description",
       "description-length": "11",
       "img": "https://www.w3schools.com/w3images/fjords.jpg",
-      "img_type": "img/jpg",
+      "img_type": "image/jpeg",
       "img_width": "600",
       "img_height": "400"
     },
@@ -18,7 +18,7 @@
       "description": "bar",
       "description-length": "3",
       "img": "https://www.w3schools.com/w3images/fjords.jpg",
-      "img_type": "img/jpg",
+      "img_type": "image/jpeg",
       "img_width": "600",
       "img_height": "400"
     },
